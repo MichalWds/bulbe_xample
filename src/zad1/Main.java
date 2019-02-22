@@ -25,8 +25,8 @@ public class Main {
 
         try {
             bulb.create("No Name",0,0);
-        } catch (Exception e) {
-            e.printStackTrace();
+        } catch (Exception error) {
+            error.printStackTrace();
         }
 
         //  System.out.println(bulb2.description());
